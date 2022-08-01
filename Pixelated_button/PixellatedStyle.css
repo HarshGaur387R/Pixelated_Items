@@ -1,0 +1,67 @@
+/* The font i use in this css is only available for personal use. */
+/* link to this font https://www.fontspace.com/pixeboy-font-f43730 */
+
+@font-face {
+  font-family: 'Pixeboy-z8XGD';
+  src: url('pixeboy-font/Pixeboy-z8XGD.ttf');
+}
+
+
+/* PIXELATE BUTTON */
+
+.PixellButton{
+  
+  font-family: 'Pixeboy-z8XGD';
+  font-size: large;
+  width: 150px;
+  height: 50px;
+  
+  background-color: rgb(90, 208, 90);
+  
+  border-top: 1px rgb(90, 208, 90);
+  border-left: 1px rgb(90, 208, 90);
+
+  border-color: rgb(56, 180, 7);
+  border-right: 4px solid darkgreen; 
+  border-bottom: 6px solid darkgreen;
+
+  box-shadow:   -3px 0 0 0 black,
+                 3px 0 0 0 black,
+                 0 -3px 0 0 black,
+                 0 3px 0 0 black;
+}
+
+.PixellButton:hover{
+
+  background-color: rgb(75, 195, 75);
+  
+  border-top: 1px rgb(90, 208, 90);
+  border-left: 1px rgb(90, 208, 90);
+
+  border-color: rgb(56, 180, 7);
+  border-right: 6px solid darkgreen; 
+  border-bottom: 8px solid darkgreen;  
+}
+
+.PixellButton:active{
+  background-color: rgb(75, 195, 75);
+  transform: translateY(3px);
+  width: 148px;
+  border-right: 4px solid darkgreen; 
+  border-bottom: 5px solid darkgreen;
+}
+
+
+@media only screen and (max-width: 850px){
+  .PixellButton{
+    background-color: rgb(90, 208, 90);
+  
+    border-top: 1px rgb(90, 208, 90);
+    border-left: 1px rgb(90, 208, 90);
+  
+    border-color: rgb(56, 180, 7);
+    border-right: 6px solid darkgreen; 
+    border-bottom: 8px solid darkgreen; 
+  }
+
+}
