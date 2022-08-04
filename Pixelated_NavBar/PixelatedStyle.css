@@ -8,57 +8,66 @@
     src: url('pixeboy-font/Pixeboy-z8XGD.ttf');
 }
 
-header{
+header {
     top: 0;
     width: 100vw;
     background-color: rgb(49, 48, 48);
     position: fixed;
 }
 
-#content{
+#content {
     margin-top: 50px;
     padding: 16px;
 }
 
-#navbar{
+#navbar {
     font-family: 'Pixeboy-z8XGD';
     background-color: rgb(49, 48, 48);
-    color:yellow;
+    color: yellow;
 }
 
-#navbar ul{
+#navbar ul {
     overflow: auto;
     overflow: hidden;
 }
 
-#navbar li{
+#navbar li {
     float: left;
     list-style: none;
-    margin: 15px 0px;
+    margin: 15px 3px;
+
 }
 
-#navbar li a{
-    color:yellow;
-    padding: 20px 36px;
+#navbar li a {
+    color: yellow;
+    padding: 10px 36px;
     text-decoration: none;
     border-left: 3px solid transparent;
-    transition: .2s;
-    box-shadow: -15px 0px 20px -17px transparent;
-}
-
-#navbar a:hover{
-    color:rgb(255, 255, 165);
-    background-color: rgb(29, 25, 25);
-    text-shadow: 1px 1px 20px rgb(255, 255, 0);
-    /* border-left: 3px solid  rgb(141, 141, 102); */
-    border-left: 3px solid gray;
-}
-
-#navbar a:active{
-    border-left: 3px solid rgb(255, 255, 165);
     
-    box-shadow: -19px 0px 39px -14px yellow 
-    , 35px 0px 55px -50px inset yellow;
+    box-shadow: -2px 0 0 0 black,
+        2px 0 0 0 black,
+        0 -2px 0 0 black,
+        0 2px 0 0 black;
 
-    /* box-shadow: 20px 0px 50px -40px inset yellow; */
+    border-right: 4px solid rgb(18, 18, 18);
+    border-top: 4px solid rgb(69, 67, 67);
+    border-bottom: 4px solid rgb(18, 18, 18);
+}
+
+#navbar a:hover {
+
+    background-color: rgb(29, 25, 25);
+    color: yellow;
+    text-shadow: 1px 1px 20px rgb(255, 255, 0);
+
+}
+
+#navbar a:active {
+    border-left: 3px solid rgb(255, 255, 165);
+    background-color: rgb(29, 25, 25);
+
+    border-right: 4px solid  rgb(29, 25, 25);
+    border-top: 4px solid  rgb(29, 25, 25);
+    border-bottom: 4px solid  rgb(29, 25, 25);
+
 }
