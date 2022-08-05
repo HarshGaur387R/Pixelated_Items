@@ -71,3 +71,10 @@ header {
     border-bottom: 4px solid  rgb(29, 25, 25);
 
 }
+
+
+@media screen and (max-width: 810px){
+    body{
+        background-color: red;
+    }
+}
