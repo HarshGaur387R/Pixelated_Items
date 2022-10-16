@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.loadingScreen {
+
+    width: 100vw;
+    height: 100vh ;
+    background-color: rgb(48, 45, 45);
+    
+}
+
+
+.loadingAnimation {
+    margin: auto;
+    width: 20vh;
+    background-color: rgb(48, 45, 45);
+
+}
+
+object{
+    margin-top: 20vh;
+}
